@@ -19,19 +19,15 @@ public:
         int n = nums.size();
 
 
-        vector<int> dp(n+1);
-        dp[0] = 0;
-        dp[1] = nums[0];
-        if(n < 2) {
-            return dp[n];
-        }
-        dp[2] = max(nums[0],nums[1]);
+        int ppSum = INT_MIN, pSum = INT_MIN;
 
-
-        for(int i = 3; i <= n; i++) {
-            dp[i] = max(max(dp[i-2] + nums[i-1], dp[i-1]), nums[i-1]);
+        for(int i = 0; i<n; i++) {
+            int currMax = max(max(ppSum + nums[i], pSum), nums[i]);
+            ppSum = pSum;
+            pSum = currMax;
         }
-        return dp[n];
+
+        return pSum;
     }
 };
 
