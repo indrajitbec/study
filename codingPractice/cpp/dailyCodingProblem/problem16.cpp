@@ -24,17 +24,12 @@ private:
 public:
     OrderLog(int capacity)
     : orders(capacity), capacity(capacity) {
-        front = -1;
+        front = 0;
         tail = 0;
     }
 
     void record(int order_id) {
         
-        if(front == -1) {
-            // first node
-            front = tail;
-        }
-
         if((tail-front+capacity)%capacity == capacity) {
             //purge one element
             front = (front+1)%capacity;
