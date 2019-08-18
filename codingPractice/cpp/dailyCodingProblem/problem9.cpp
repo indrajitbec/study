@@ -1,3 +1,4 @@
+// [Hard]
 // This problem was asked by Airbnb.
 
 // Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. 

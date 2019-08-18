@@ -1,3 +1,4 @@
+// [Medium]
 // This problem was asked by Facebook.
 
 // A builder is looking to build a row of N houses that can be of K different colors.

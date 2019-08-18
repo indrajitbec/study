@@ -1,3 +1,4 @@
+// [Medium]
 // This problem was asked by Facebook.
 
 // Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, 

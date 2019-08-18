@@ -1,4 +1,4 @@
-// Medium
+// [Medium]
 // This problem was asked by Google.
 
 // Given the root to a binary tree, implement serialize(root), 

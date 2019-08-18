@@ -1,3 +1,4 @@
+// [Easy]
 // This problem was asked by Google.
 
 // A unival tree (which stands for "universal value") is a tree 

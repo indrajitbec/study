@@ -1,4 +1,4 @@
-// Hard
+// [Hard]
 // This problem was asked by Uber.
 
 // Given an array of integers, return a new array such that each element at index i of the new array is the 
@@ -67,7 +67,7 @@ public:
 int main() {
     vector<int> input = {1, 2, 3, 4, 5};
 
-    cout << "Input : ";
+    cout << "Input : ";/
     for(auto x : input) {
         cout << x << " ";
     }

@@ -1,3 +1,4 @@
+// [Medium]
 // This problem was asked by Facebook.
 
 // Given a stream of elements too large to store in memory,
