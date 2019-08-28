@@ -26,7 +26,7 @@ class XORList {
     private:
         XORListNode *head, *tail;
         XORListNode *XOR(XORListNode *a, XORListNode *b) {
-            return ( XORListNode *)(((unsigned) a) ^ ((unsigned) b));
+            return ( XORListNode *)(((uint64_t) a) ^ ((uint64_t) b));
         }
     public:
         XORList() : head(nullptr), tail(nullptr) {}
