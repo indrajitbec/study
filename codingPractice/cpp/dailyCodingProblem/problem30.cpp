@@ -13,4 +13,4 @@
 // 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left),
 // so we can trap 9 units of water.
 
-// TODO: ran water trapping
+// TODO: rain water trapping
